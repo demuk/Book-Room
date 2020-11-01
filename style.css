@@ -1,3 +1,10 @@
-h1 {
-    color: aqua;
+
+#img-logo {
+    width: 100px;
+    height: auto;
+    color: #000083;
+}
+
+#logo {
+    text-align: center;
 }
