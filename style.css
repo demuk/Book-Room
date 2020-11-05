@@ -53,6 +53,7 @@ a {
     font-family: cursive;
     margin-top: 50px;
     margin-bottom: 5px;
+    text-align: center;
 
 }
 
@@ -65,3 +66,20 @@ a {
 p {
     text-align: center;
 }
+
+@media only screen and (max-width:800px) {
+    /* For tablets: */
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
