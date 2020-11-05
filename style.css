@@ -48,7 +48,6 @@ a {
 
 .page-section{
     height: 400px;
-    text-align: center;
     color: #152238;
     font-size: 20px;
     font-family: cursive;
@@ -61,4 +60,8 @@ a {
     text-align: center;
     font-weight: bold;
     color: #954535;
+}
+
+p {
+    text-align: center;
 }
