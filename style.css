@@ -11,7 +11,7 @@ li {
     text-transform: uppercase;
     min-width: 80px;
     font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Courier New', Courier, monospace
    
 }
 
@@ -67,19 +67,22 @@ p {
     text-align: center;
 }
 
-@media only screen and (max-width:800px) {
-    /* For tablets: */
-    .page-section {
-      width: 80%;
-      padding: 0;
-    }
-    .right {
-      width: 100%;
-    }
-  }
-  @media only screen and (max-width:500px) {
-    /* For mobile phones: */
-    .nav-bar, .page-section, .right {
-      width: 100%;
-    }
-  }
+.contact-form{
+    display: table-row;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea {
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+
